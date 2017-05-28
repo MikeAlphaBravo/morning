@@ -1,0 +1,36 @@
+body {
+  background-color: #ffff22;
+}
+
+#kerrygold-show {
+  display: none;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.original-background {
+  background-color: #ffff22;
+}
+
+ .clickable {
+   cursor: pointer;
+   color: #0088cc;
+ }
+
+ .clickable:hover {
+   text-decoration: underline;
+ }
+
+ #story {
+   display: none;
+ }

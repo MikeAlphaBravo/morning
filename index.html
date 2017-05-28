@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Kerrygold</title>
+  </head>
+    <div class="container">
+      <body>
+        <h1>Order Sheet</h1>
+
+        <div id="kerrygold-hidden">
+          <p><span class="clickable">Click here </span>for product example</p>
+        </div>
+
+        <div id="kerrygold-show">
+          <p><span class="clickable">Click here </span>to hide example</p>
+          <img src="img/kerrygold.png" alt="An image of beautiful Kerrygold Pure Irish Butter in gold wrapper." width = 250>
+        </div>
+
+        <p>Choose YOUR Kerrygold!</p>
+        <button class="btn btn-success" id="green">Salted</button>
+        <button class="btn btn-warning" id="yellow">Unsalted</button>
+        <button class="btn btn-danger" id="red">Organic</button>
+        <button class="btn btn-none" id="reset">Reset</button>
+
+        <h1>Talk to the web page</h1>
+        <p>Click a button to say something to the web page. See what it says back!</p>
+
+        <button class="btn btn-primary" id="hello">Say "hello"</button>
+        <button class="btn btn-inverse" id="goodbye">Say "goodbye"</button>
+        <button class="btn btn-danger" id="stop">Say "stop copying me!"</button>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h4>You said:</h4>
+            <ul class="unstyled" id="user">
+
+            </ul>
+          </div>
+
+          <div class="col-md-6">
+            <h4>The web page said back:</h4>
+            <ul class="unstyled" id="webpage">
+
+            </ul>
+          </div>
+        </div>
+
+        <h3>Butter Order Form</h3>
+        <div id="blanks">
+          <form>
+            <div class="form-group">
+              <label for="address">Address</label>
+              <input id="address" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="citystatezip">City, STATE Zipcode</label>
+              <input id="citystatezip" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input id="phone" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input id="email" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="quantity">Order Quantity</label>
+              <input id="quantity" class="form-control" type="text">
+            </div>
+
+            <button type="submit" class="btn">Order Summary</button>
+          </form>
+        </div>
+
+        <div id="story">
+          <h4>Your order will be shipped to:</h4>
+          <p><span class="address"></span></p>
+          <p><span class="citystatezip"></span></p> <h4>If we need more information we will contact you at:</h4>
+          <p><span class="phone"></span> or</p>
+          <p><span class="email"></span></p>
+          <h4>You have requested an order quantity of:</h4>
+          <p><span class="quantity"></span></p>
+          <h4>We thank you kindly for your patronage.</h4>
+        </div>
+      </body>
+    </div>
+  </html>
